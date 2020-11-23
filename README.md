@@ -10,6 +10,7 @@ The plugin should be used a meter in a Rainmeter skin.
 **Requirements:**
 
 -Rainmeter 2.3 beta or higher.
+
 -NewtonSoft.Json DLL must be kept in the same directory as Rainmeter.exe
 
 **Credits:**
