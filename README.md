@@ -16,5 +16,7 @@ The plugin should be used a meter in a Rainmeter skin.
 **Credits:**
 
 -Rainmeter Team, for Rainmeter and Rainmeter SDK
+
 -Newtonsoft, for Newtonsoft.Json (Json.NET)
+
 -Microsoft, for C# and .NET Framework
