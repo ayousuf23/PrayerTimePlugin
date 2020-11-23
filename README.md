@@ -1,12 +1,17 @@
-The Rainmeter plugin software development kit contains the necessary tools and examples to build plugins in C/C++ and C#. Note that plugins built with the SDK require Rainmeter 2.3 beta or higher.
+PrayerTimePlugin is a plugin for Rainmeter. The plugin gets prayer times based on latitude, longitude, method of calculation, school, latitude adjustment method, number of days to offset Hijri dates, midnight mode, and clock mode (12-hour or 24-hour clock).
 
-**Download:**
 
-*   Use git (`git clone git@github.com:rainmeter/rainmeter-plugin-sdk.git`)
-*   Use svn (`svn checkout https://github.com/rainmeter/rainmeter-plugin-sdk/trunk rainmeter-plugin-sdk`)
-*   Download the [current snapshot](https://github.com/rainmeter/rainmeter-plugin-sdk/zipball/master) as a .zip archive.
+**How to build:**
+Open C#/PrayerTimePlugin.sln in Visual Studio 2019 to build. The default setting outputs the plugin DLL to the Rainmeter plugins folder. 
 
-The SDK can be built using any version of Visual Studio 2019. If you don't already have VS2019, you can download the free "Visual Studio Community" version [here](https://www.visualstudio.com/downloads/).
+**How to use:**
+The plugin should be used a meter in a Rainmeter skin.
 
-**Documentation:** The documentation is available at https://docs.rainmeter.net/developers/.
-"# PrayerTimePlugin" 
+**Requirements:**
+-Rainmeter 2.3 beta or higher.
+-NewtonSoft.Json DLL must be kept in the same directory as Rainmeter.exe
+
+**Credits:**
+-Rainmeter Team, for Rainmeter and Rainmeter SDK
+-Newtonsoft, for Newtonsoft.Json (Json.NET)
+-Microsoft, for C# and .NET Framework
