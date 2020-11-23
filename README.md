@@ -8,10 +8,12 @@ Open C#/PrayerTimePlugin.sln in Visual Studio 2019 to build. The default setting
 The plugin should be used a meter in a Rainmeter skin.
 
 **Requirements:**
+
 -Rainmeter 2.3 beta or higher.
 -NewtonSoft.Json DLL must be kept in the same directory as Rainmeter.exe
 
 **Credits:**
+
 -Rainmeter Team, for Rainmeter and Rainmeter SDK
 -Newtonsoft, for Newtonsoft.Json (Json.NET)
 -Microsoft, for C# and .NET Framework
